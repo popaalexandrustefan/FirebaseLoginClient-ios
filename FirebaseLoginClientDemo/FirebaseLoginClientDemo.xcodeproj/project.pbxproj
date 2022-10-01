@@ -20,10 +20,10 @@
 		AAD4ADC228E8639000C7F947 /* FirebaseLoginClientDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLoginClientDemoApp.swift; sourceTree = "<group>"; };
 		AAD4ADC628E8639200C7F947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAD4ADC928E8639200C7F947 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AADA7E0C28E8699C00C9CCCB /* FirebaseLoginClient */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FirebaseLoginClient; path = ../FirebaseLoginClient; sourceTree = "<group>"; };
 		AADA7E1028E86B2600C9CCCB /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		AADA7E1128E86B2600C9CCCB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../FirebaseAuthClient/FirebaseAuthClientDemo/ContentView.swift; sourceTree = "<group>"; };
 		AADA7E1628E86DDF00C9CCCB /* FirebaseLoginClientDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseLoginClientDemo.entitlements; sourceTree = "<group>"; };
+		AADA7E1728E8732700C9CCCB /* FirebaseLoginClient-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "FirebaseLoginClient-ios"; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 		AADA7E0B28E8699C00C9CCCB /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				AADA7E0C28E8699C00C9CCCB /* FirebaseLoginClient */,
+				AADA7E1728E8732700C9CCCB /* FirebaseLoginClient-ios */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
