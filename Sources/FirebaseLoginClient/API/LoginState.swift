@@ -8,7 +8,7 @@
 import FirebaseAuth
 import Foundation
 
-public enum LoginState {
+public enum LoginState: Equatable {
   case undetermined
   case loggedIn(User)
   case notLoggedIn
